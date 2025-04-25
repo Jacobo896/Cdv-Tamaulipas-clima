@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Clima en Ciudad Victoria</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef7f6;
+      color: #00332e;
+      padding: 20px;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .section {
+      margin: 30px auto;
+      max-width: 800px;
+    }
+    .card {
+      background: #ffffff;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    iframe {
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Integrantes: López Martínez Jacobo</h1>
+  <h2>Clima en Ciudad Victoria, Tamaulipas</h2>
+
+  <div class="section">
+
+    <div class="card">
+      <h3>Clima Actual</h3>
+      <p><strong>Temperatura:</strong> 31°C</p>
+      <p><strong>Sensación térmica:</strong> 33°C</p>
+      <p><strong>Condición:</strong> Parcialmente nublado</p>
+      <p><strong>Viento:</strong> 18 km/h</p>
+    </div>
+
+    <div class="card">
+      <h3>Pronóstico para los próximos días</h3>
+      <ul>
+        <li><strong>Viernes:</strong> Soleado - 34°C / 22°C</li>
+        <li><strong>Sábado:</strong> Parcialmente nublado - 35°C / 23°C</li>
+        <li><strong>Domingo:</strong> Lluvia ligera - 32°C / 21°C</li>
+        <li><strong>Lunes:</strong> Nublado - 31°C / 20°C</li>
+        <li><strong>Martes:</strong> Soleado - 33°C / 22°C</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Radar Meteorológico</h3>
+      <iframe src="https://embed.windy.com/embed2.html?lat=23.7369&lon=-99.1411&zoom=7&level=surface&overlay=radar&menu=&message=true" height="400"></iframe>
+    </div>
+
+    <div class="card">
+      <h3>Calidad del Aire</h3>
+      <p><strong>Índice actual:</strong> 54 (Moderado)</p>
+      <p><strong>Recomendación:</strong> Personas sensibles deben limitar actividad al aire libre.</p>
+    </div>
+
+    <div class="card">
+      <h3>Salida y Puesta del Sol</h3>
+      <p><strong>Salida:</strong> 6:58 AM</p>
+      <p><strong>Puesta:</strong> 8:01 PM</p>
+    </div>
+
+    <div class="card">
+      <h3>Fase Lunar</h3>
+      <p><strong>Hoy:</strong> Luna menguante</p>
+      <p><strong>Próxima luna nueva:</strong> 7 de mayo 2025</p>
+    </div>
+
+    <div class="card">
+      <h3>Últimas Noticias del Clima</h3>
+      <ul>
+        <li>Se registra lluvia refrescante en Ciudad Victoria este jueves por la tarde.</li>
+        <li>SMN prevé posibles chubascos para el fin de semana.</li>
+        <li>Temperaturas podrían superar los 35°C en próximos días.</li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+</html>
